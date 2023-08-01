@@ -4,5 +4,6 @@ def funct():
     print('Hello World')
     load_dotenv()
     print(os.getenv("OPEN_API_KEY"))
+    print('random')
 if __name__ == '__main__':
     funct()
